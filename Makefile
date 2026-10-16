@@ -153,6 +153,7 @@ UPROGS=\
 	$U/_sync\
 	$U/_find\
 	$U/_xargs\
+	$U/_fxtest\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
